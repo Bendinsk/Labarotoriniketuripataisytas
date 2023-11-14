@@ -21,22 +21,23 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.main_menu, menu);
-//        return true;
-//        }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+        }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
 //        switch (item.getItemId()) {
-//        case R.id.menu_add_note:
+//        //case R.id.menu_add_note:
 //
-//        return true;
-//        case R.id.menu_delete_note:
+//        //return true;
+//        //case R.id.menu_delete_note:
 //
 //        return true;
 //    default:
 //        return super.onOptionsItemSelected(item);
-//        }
+        return false;
+    }
 }
